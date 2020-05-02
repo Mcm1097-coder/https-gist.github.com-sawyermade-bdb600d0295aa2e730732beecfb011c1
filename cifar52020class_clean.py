@@ -288,7 +288,7 @@ def main():
 			steps_per_epoch = steps_for_epoch,
 			epochs=epochs,
 			validation_data=(x_test, y_test),
-			workers=4
+			#workers=4
 		)
 
 	# Save model and weights
